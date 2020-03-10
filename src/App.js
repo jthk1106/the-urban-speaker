@@ -156,7 +156,7 @@ class App extends React.Component {
         <div className="row justify-content-center">
           <div className="card mt-5 text-white bg-info">
             <h1 className="card-header">The Urban Speaker</h1>
-            <h4 className="card-header bg-dark">Gain the skills to become an "urban speaker" today!</h4>
+            <h4 className="card-header bg-dark">Gain the skills to become a real-world "urban speaker" today!</h4>
             <div className="card-body">
               <div className="input-group">
                 <input type="text" className="form-control" placeholder="search" onChange={this.updateSearch} onKeyPress={this.pressedEnter}/>
