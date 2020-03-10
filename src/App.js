@@ -130,7 +130,7 @@ class App extends React.Component {
   }
 
   render() {
-   
+
     let hits = []
     hits = [...this.state.hits]
 
@@ -144,7 +144,7 @@ class App extends React.Component {
           <button className="btn btn-primary" onClick={() => {this.getAudio(hit)}}>Volume up and click me please</button>
           <audio ref="audio" key="search">
             <source src={this.state.test} />
-            Your browser does not support the audio element.
+            Your browser does not support the audio element!
           </audio>
           <hr />
         </li>
