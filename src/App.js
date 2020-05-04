@@ -93,7 +93,7 @@ class App extends React.Component {
   }
 
   getAudio(hit) {
-    console.log(hit.example)
+    console.log('hit.example: ', hit.example)
     axios({
       "method":"GET",
       "url":"https://voicerss-text-to-speech.p.rapidapi.com/",
